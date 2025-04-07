@@ -1,0 +1,158 @@
+{
+    "name": "species",
+    "children": [
+        {
+            "name": "mammals",
+            "children": [
+                {
+                    "name": "primates",
+                    "children": [
+                        {
+                            "name": "humans",
+                            "value": 1
+                        },
+                        {
+                            "name": "gorillas",
+                            "value": 1
+                        },
+                        {
+                            "name": "chimpanzees",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "felines",
+                    "children": [
+                        {
+                            "name": "lions",
+                            "value": 1
+                        },
+                        {
+                            "name": "tigers",
+                            "value": 1
+                        },
+                        {
+                            "name": "housecats",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "birds",
+            "children": [
+                {
+                    "name": "raptors",
+                    "children": [
+                        {
+                            "name": "eagles",
+                            "value": 1
+                        },
+                        {
+                            "name": "hawks",
+                            "value": 1
+                        },
+                        {
+                            "name": "falcons",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "songbirds",
+                    "children": [
+                        {
+                            "name": "sparrows",
+                            "value": 1
+                        },
+                        {
+                            "name": "robins",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "reptiles",
+            "children": [
+                {
+                    "name": "snakes",
+                    "children": [
+                        {
+                            "name": "pythons",
+                            "value": 1
+                        },
+                        {
+                            "name": "cobras",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "lizards",
+                    "children": [
+                        {
+                            "name": "geckos",
+                            "value": 1
+                        },
+                        {
+                            "name": "iguanas",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "fish",
+            "children": [
+                {
+                    "name": "sharks",
+                    "children": [
+                        {
+                            "name": "great_white",
+                            "value": 1
+                        },
+                        {
+                            "name": "hammerhead",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "tropical",
+                    "children": [
+                        {
+                            "name": "clownfish",
+                            "value": 1
+                        },
+                        {
+                            "name": "angelfish",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "insects",
+            "children": [
+                {
+                    "name": "beetles",
+                    "value": 1
+                },
+                {
+                    "name": "ants",
+                    "value": 1
+                },
+                {
+                    "name": "butterflies",
+                    "value": 1
+                }
+            ]
+        }
+    ]
+}

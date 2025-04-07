@@ -1,0 +1,546 @@
+{
+    "name": "plants",
+    "displayName": "plants",
+    "hierarchy": "kingdom",
+    "children": [
+        {
+            "name": "flowering_plants",
+            "displayName": "flowering plants",
+            "hierarchy": "division",
+            "children": [
+                {
+                    "name": "trees",
+                    "displayName": "trees",
+                    "hierarchy": "class",
+                    "children": [
+                        {
+                            "name": "deciduous",
+                            "displayName": "deciduous",
+                            "hierarchy": "order",
+                            "children": [
+                                {
+                                    "name": "oak",
+                                    "displayName": "oak",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "red_oak",
+                                            "displayName": "red oak",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "white_oak",
+                                            "displayName": "white oak",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "maple",
+                                    "displayName": "maple",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "sugar_maple",
+                                            "displayName": "sugar maple",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "red_maple",
+                                            "displayName": "red maple",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "birch",
+                                    "displayName": "birch",
+                                    "hierarchy": "family",
+                                    "value": 1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "evergreen",
+                            "displayName": "evergreen",
+                            "hierarchy": "order",
+                            "children": [
+                                {
+                                    "name": "pine",
+                                    "displayName": "pine",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "white_pine",
+                                            "displayName": "white pine",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "scots_pine",
+                                            "displayName": "scots pine",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "spruce",
+                                    "displayName": "spruce",
+                                    "hierarchy": "family",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "cedar",
+                                    "displayName": "cedar",
+                                    "hierarchy": "family",
+                                    "value": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "flowers",
+                    "displayName": "flowers",
+                    "hierarchy": "class",
+                    "children": [
+                        {
+                            "name": "annuals",
+                            "displayName": "annuals",
+                            "hierarchy": "order",
+                            "children": [
+                                {
+                                    "name": "marigold",
+                                    "displayName": "marigold",
+                                    "hierarchy": "family",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "zinnia",
+                                    "displayName": "zinnia",
+                                    "hierarchy": "family",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "petunia",
+                                    "displayName": "petunia",
+                                    "hierarchy": "family",
+                                    "value": 1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "perennials",
+                            "displayName": "perennials",
+                            "hierarchy": "order",
+                            "children": [
+                                {
+                                    "name": "rose",
+                                    "displayName": "rose",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "hybrid_tea",
+                                            "displayName": "hybrid tea",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "climbing",
+                                            "displayName": "climbing",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "daisy",
+                                    "displayName": "daisy",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "shasta",
+                                            "displayName": "shasta",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "gerbera",
+                                            "displayName": "gerbera",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "vegetables",
+                    "displayName": "vegetables",
+                    "hierarchy": "class",
+                    "children": [
+                        {
+                            "name": "root_vegetables",
+                            "displayName": "root vegetables",
+                            "hierarchy": "order",
+                            "children": [
+                                {
+                                    "name": "carrot",
+                                    "displayName": "carrot",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "nantes",
+                                            "displayName": "nantes",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "danvers",
+                                            "displayName": "danvers",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "imperator",
+                                            "displayName": "imperator",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "potato",
+                                    "displayName": "potato",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "russet",
+                                            "displayName": "russet",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "yukon_gold",
+                                            "displayName": "yukon gold",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "red",
+                                            "displayName": "red",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "leafy_greens",
+                            "displayName": "leafy greens",
+                            "hierarchy": "order",
+                            "children": [
+                                {
+                                    "name": "lettuce",
+                                    "displayName": "lettuce",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "romaine",
+                                            "displayName": "romaine",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "butterhead",
+                                            "displayName": "butterhead",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "spinach",
+                                    "displayName": "spinach",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "savoy",
+                                            "displayName": "savoy",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "flat_leaf",
+                                            "displayName": "flat leaf",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "kale",
+                                    "displayName": "kale",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "curly",
+                                            "displayName": "curly",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "dinosaur",
+                                            "displayName": "dinosaur",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "swiss_chard",
+                                    "displayName": "swiss chard",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "rainbow",
+                                            "displayName": "rainbow",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "ruby_red",
+                                            "displayName": "ruby red",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "arugula",
+                                    "displayName": "arugula",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "wild",
+                                            "displayName": "wild",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "cultivated",
+                                            "displayName": "cultivated",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "fruiting_vegetables",
+                            "displayName": "fruiting vegetables",
+                            "hierarchy": "order",
+                            "children": [
+                                {
+                                    "name": "tomato",
+                                    "displayName": "tomato",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "beefsteak",
+                                            "displayName": "beefsteak",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "cherry",
+                                            "displayName": "cherry",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "pepper",
+                                    "displayName": "pepper",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "bell",
+                                            "displayName": "bell",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "jalapeno",
+                                            "displayName": "jalapeno",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "non_flowering_plants",
+            "displayName": "non flowering plants",
+            "hierarchy": "division",
+            "children": [
+                {
+                    "name": "ferns",
+                    "displayName": "ferns",
+                    "hierarchy": "class",
+                    "children": [
+                        {
+                            "name": "true_ferns",
+                            "displayName": "true ferns",
+                            "hierarchy": "order",
+                            "children": [
+                                {
+                                    "name": "sword_fern",
+                                    "displayName": "sword fern",
+                                    "hierarchy": "species",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "maidenhair",
+                                    "displayName": "maidenhair",
+                                    "hierarchy": "species",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "tree_fern",
+                                    "displayName": "tree fern",
+                                    "hierarchy": "species",
+                                    "value": 1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "horsetails",
+                            "displayName": "horsetails",
+                            "hierarchy": "order",
+                            "children": [
+                                {
+                                    "name": "field_horsetail",
+                                    "displayName": "field horsetail",
+                                    "hierarchy": "species",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "giant_horsetail",
+                                    "displayName": "giant horsetail",
+                                    "hierarchy": "species",
+                                    "value": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "mosses",
+                    "displayName": "mosses",
+                    "hierarchy": "class",
+                    "children": [
+                        {
+                            "name": "true_mosses",
+                            "displayName": "true mosses",
+                            "hierarchy": "order",
+                            "children": [
+                                {
+                                    "name": "cushion_moss",
+                                    "displayName": "cushion moss",
+                                    "hierarchy": "species",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "peat_moss",
+                                    "displayName": "peat moss",
+                                    "hierarchy": "species",
+                                    "value": 1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "liverworts",
+                            "displayName": "liverworts",
+                            "hierarchy": "order",
+                            "children": [
+                                {
+                                    "name": "common_liverwort",
+                                    "displayName": "common liverwort",
+                                    "hierarchy": "species",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "crescent_cup",
+                                    "displayName": "crescent cup",
+                                    "hierarchy": "species",
+                                    "value": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "algae",
+                    "displayName": "algae",
+                    "hierarchy": "class",
+                    "children": [
+                        {
+                            "name": "green_algae",
+                            "displayName": "green algae",
+                            "hierarchy": "order",
+                            "children": [
+                                {
+                                    "name": "sea_lettuce",
+                                    "displayName": "sea lettuce",
+                                    "hierarchy": "species",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "spirogyra",
+                                    "displayName": "spirogyra",
+                                    "hierarchy": "species",
+                                    "value": 1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "brown_algae",
+                            "displayName": "brown algae",
+                            "hierarchy": "order",
+                            "children": [
+                                {
+                                    "name": "kelp",
+                                    "displayName": "kelp",
+                                    "hierarchy": "species",
+                                    "value": 1
+                                },
+                                {
+                                    "name": "rockweed",
+                                    "displayName": "rockweed",
+                                    "hierarchy": "species",
+                                    "value": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

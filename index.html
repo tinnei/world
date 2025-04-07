@@ -13,7 +13,7 @@
 
 <script type="module">
     import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
-    const data = await d3.json("worlddata.json");
+    const data = await d3.json("plantData.json");
 
     // Create a unique ID generator
     const uid = (prefix = "") => {
@@ -51,6 +51,7 @@
     // Formatting utilities.
     const format = d3.format(",d");
     const name = d => d.ancestors().reverse().map(d => d.data.name).join("/");
+    const classification = d => d.data.hierarchy;
 
     // Create the SVG container.
     const svg = d3.create("svg")
@@ -65,6 +66,11 @@
         .call(render, root);
 
     function render(group, root) {
+        // Create color scale for green intensity based on values
+        const colorScale = d3.scaleLinear()
+            .domain([0, d3.max(root.descendants(), d => d.value)])
+            .range(["#f0f7f0", "#74a974"]); // Muted light to dark green
+
         const node = group
             .selectAll("g")
             .data(root.children.concat(root))
@@ -82,7 +88,10 @@
 
         node.append("rect")
             .attr("id", d => (d.leafUid = leafUid()).id)
-            .attr("fill", d => d === root ? "#fff" : d.children ? "#ccc" : "#ddd")
+            .attr("fill", d => {
+                if (d === root) return "#fff";
+                return colorScale(d.value); // Apply color scale to leaf nodes
+            })
             .attr("stroke", "#fff");
 
         node.append("clipPath")
@@ -94,7 +103,7 @@
             .attr("clip-path", d => d.clipUid)
             .attr("font-weight", d => d === root ? "bold" : null)
             .selectAll("tspan")
-            .data(d => (d === root ? name(d) : d.data.name).split(/(?=[A-Z][^A-Z])/g).concat(format(d.value)))
+            .data(d => (d === root ? name(d).concat(":", classification(d)) : d.data.displayName).split(/(?=[A-Z][^A-Z])/g).concat(format(d.value)))
             .join("tspan")
             .attr("x", 3)
             .attr("y", (d, i, nodes) => `${(i === nodes.length - 1) * 0.3 + 1.1 + i * 0.9}em`)
