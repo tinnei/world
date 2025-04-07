@@ -1,0 +1,158 @@
+{
+    "name": "species",
+    "children": [
+        {
+            "name": "mammals",
+            "children": [
+                {
+                    "name": "primates",
+                    "children": [
+                        {
+                            "name": "humans",
+                            "value": 7800000000
+                        },
+                        {
+                            "name": "gorillas",
+                            "value": 100000
+                        },
+                        {
+                            "name": "chimpanzees",
+                            "value": 300000
+                        }
+                    ]
+                },
+                {
+                    "name": "felines",
+                    "children": [
+                        {
+                            "name": "lions",
+                            "value": 20000
+                        },
+                        {
+                            "name": "tigers",
+                            "value": 3900
+                        },
+                        {
+                            "name": "housecats",
+                            "value": 600000000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "birds",
+            "children": [
+                {
+                    "name": "raptors",
+                    "children": [
+                        {
+                            "name": "eagles",
+                            "value": 250000
+                        },
+                        {
+                            "name": "hawks",
+                            "value": 1000000
+                        },
+                        {
+                            "name": "falcons",
+                            "value": 40000
+                        }
+                    ]
+                },
+                {
+                    "name": "songbirds",
+                    "children": [
+                        {
+                            "name": "sparrows",
+                            "value": 1400000000
+                        },
+                        {
+                            "name": "robins",
+                            "value": 310000000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "reptiles",
+            "children": [
+                {
+                    "name": "snakes",
+                    "children": [
+                        {
+                            "name": "pythons",
+                            "value": 100000
+                        },
+                        {
+                            "name": "cobras",
+                            "value": 50000
+                        }
+                    ]
+                },
+                {
+                    "name": "lizards",
+                    "children": [
+                        {
+                            "name": "geckos",
+                            "value": 1000000
+                        },
+                        {
+                            "name": "iguanas",
+                            "value": 500000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "fish",
+            "children": [
+                {
+                    "name": "sharks",
+                    "children": [
+                        {
+                            "name": "great_white",
+                            "value": 3500
+                        },
+                        {
+                            "name": "hammerhead",
+                            "value": 2000
+                        }
+                    ]
+                },
+                {
+                    "name": "tropical",
+                    "children": [
+                        {
+                            "name": "clownfish",
+                            "value": 1000000
+                        },
+                        {
+                            "name": "angelfish",
+                            "value": 2000000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "insects",
+            "children": [
+                {
+                    "name": "beetles",
+                    "value": 350000000000
+                },
+                {
+                    "name": "ants",
+                    "value": 10000000000000
+                },
+                {
+                    "name": "butterflies",
+                    "value": 20000000
+                }
+            ]
+        }
+    ]
+}
