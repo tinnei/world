@@ -52,6 +52,7 @@
     const format = d3.format(",d");
     const name = d => d.ancestors().reverse().map(d => d.data.name).join("/");
     const classification = d => d.data.hierarchy;
+    const localizeChinese = d => d.data.chineseName;
 
     // Create the SVG container.
     const svg = d3.create("svg")
@@ -103,7 +104,7 @@
             .attr("clip-path", d => d.clipUid)
             .attr("font-weight", d => d === root ? "bold" : null)
             .selectAll("tspan")
-            .data(d => (d === root ? name(d).concat(":", classification(d)) : d.data.displayName).split(/(?=[A-Z][^A-Z])/g).concat(format(d.value)))
+            .data(d => (d === root ? name(d).concat(":", classification(d)) : (d.data.chineseName + " " + d.data.displayName)).split(/(?=[A-Z][^A-Z])/g).concat(format(d.value)))
             .join("tspan")
             .attr("x", 3)
             .attr("y", (d, i, nodes) => `${(i === nodes.length - 1) * 0.3 + 1.1 + i * 0.9}em`)

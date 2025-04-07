@@ -1,37 +1,44 @@
 {
     "name": "plants",
     "displayName": "plants",
+    "chineseName": "植物",
     "hierarchy": "kingdom",
     "children": [
         {
             "name": "flowering_plants",
             "displayName": "flowering plants",
+            "chineseName": "開花植物",
             "hierarchy": "division",
             "children": [
                 {
                     "name": "trees",
                     "displayName": "trees",
+                    "chineseName": "樹木",
                     "hierarchy": "class",
                     "children": [
                         {
                             "name": "deciduous",
                             "displayName": "deciduous",
+                            "chineseName": "落葉樹",
                             "hierarchy": "order",
                             "children": [
                                 {
                                     "name": "oak",
                                     "displayName": "oak",
+                                    "chineseName": "橡樹",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "red_oak",
                                             "displayName": "red oak",
+                                            "chineseName": "紅橡樹",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "white_oak",
                                             "displayName": "white oak",
+                                            "chineseName": "白橡樹",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -40,17 +47,20 @@
                                 {
                                     "name": "maple",
                                     "displayName": "maple",
+                                    "chineseName": "楓樹",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "sugar_maple",
                                             "displayName": "sugar maple",
+                                            "chineseName": "糖楓",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "red_maple",
                                             "displayName": "red maple",
+                                            "chineseName": "紅楓",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -59,6 +69,7 @@
                                 {
                                     "name": "birch",
                                     "displayName": "birch",
+                                    "chineseName": "樺樹",
                                     "hierarchy": "family",
                                     "value": 1
                                 }
@@ -67,22 +78,26 @@
                         {
                             "name": "evergreen",
                             "displayName": "evergreen",
+                            "chineseName": "常青樹",
                             "hierarchy": "order",
                             "children": [
                                 {
                                     "name": "pine",
                                     "displayName": "pine",
+                                    "chineseName": "松樹",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "white_pine",
                                             "displayName": "white pine",
+                                            "chineseName": "白松",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "scots_pine",
                                             "displayName": "scots pine",
+                                            "chineseName": "蘇格蘭松",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -91,12 +106,14 @@
                                 {
                                     "name": "spruce",
                                     "displayName": "spruce",
+                                    "chineseName": "雲杉",
                                     "hierarchy": "family",
                                     "value": 1
                                 },
                                 {
                                     "name": "cedar",
                                     "displayName": "cedar",
+                                    "chineseName": "雪松",
                                     "hierarchy": "family",
                                     "value": 1
                                 }
@@ -107,28 +124,33 @@
                 {
                     "name": "flowers",
                     "displayName": "flowers",
+                    "chineseName": "花卉",
                     "hierarchy": "class",
                     "children": [
                         {
                             "name": "annuals",
                             "displayName": "annuals",
+                            "chineseName": "一年生植物",
                             "hierarchy": "order",
                             "children": [
                                 {
                                     "name": "marigold",
                                     "displayName": "marigold",
+                                    "chineseName": "萬壽菊",
                                     "hierarchy": "family",
                                     "value": 1
                                 },
                                 {
                                     "name": "zinnia",
                                     "displayName": "zinnia",
+                                    "chineseName": "百日菊",
                                     "hierarchy": "family",
                                     "value": 1
                                 },
                                 {
                                     "name": "petunia",
                                     "displayName": "petunia",
+                                    "chineseName": "矮牽牛",
                                     "hierarchy": "family",
                                     "value": 1
                                 }
@@ -137,22 +159,26 @@
                         {
                             "name": "perennials",
                             "displayName": "perennials",
+                            "chineseName": "多年生植物",
                             "hierarchy": "order",
                             "children": [
                                 {
                                     "name": "rose",
                                     "displayName": "rose",
+                                    "chineseName": "玫瑰",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "hybrid_tea",
                                             "displayName": "hybrid tea",
+                                            "chineseName": "雜交茶玫瑰",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "climbing",
                                             "displayName": "climbing",
+                                            "chineseName": "藤本玫瑰",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -161,17 +187,20 @@
                                 {
                                     "name": "daisy",
                                     "displayName": "daisy",
+                                    "chineseName": "雛菊",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "shasta",
                                             "displayName": "shasta",
+                                            "chineseName": "沙士達雛菊",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "gerbera",
                                             "displayName": "gerbera",
+                                            "chineseName": "非洲菊",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -184,33 +213,39 @@
                 {
                     "name": "vegetables",
                     "displayName": "vegetables",
+                    "chineseName": "蔬菜",
                     "hierarchy": "class",
                     "children": [
                         {
                             "name": "root_vegetables",
                             "displayName": "root vegetables",
+                            "chineseName": "根菜",
                             "hierarchy": "order",
                             "children": [
                                 {
                                     "name": "carrot",
                                     "displayName": "carrot",
+                                    "chineseName": "胡蘿蔔",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "nantes",
                                             "displayName": "nantes",
+                                            "chineseName": "南特胡蘿蔔",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "danvers",
                                             "displayName": "danvers",
+                                            "chineseName": "丹佛斯胡蘿蔔",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "imperator",
                                             "displayName": "imperator",
+                                            "chineseName": "帝王胡蘿蔔",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -219,23 +254,27 @@
                                 {
                                     "name": "potato",
                                     "displayName": "potato",
+                                    "chineseName": "馬鈴薯",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "russet",
                                             "displayName": "russet",
+                                            "chineseName": "褐皮馬鈴薯",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "yukon_gold",
                                             "displayName": "yukon gold",
+                                            "chineseName": "育空金馬鈴薯",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "red",
                                             "displayName": "red",
+                                            "chineseName": "紅皮馬鈴薯",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -246,22 +285,26 @@
                         {
                             "name": "leafy_greens",
                             "displayName": "leafy greens",
+                            "chineseName": "葉菜",
                             "hierarchy": "order",
                             "children": [
                                 {
                                     "name": "lettuce",
                                     "displayName": "lettuce",
+                                    "chineseName": "生菜",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "romaine",
                                             "displayName": "romaine",
+                                            "chineseName": "羅馬生菜",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "butterhead",
                                             "displayName": "butterhead",
+                                            "chineseName": "奶油生菜",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -270,17 +313,20 @@
                                 {
                                     "name": "spinach",
                                     "displayName": "spinach",
+                                    "chineseName": "菠菜",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "savoy",
                                             "displayName": "savoy",
+                                            "chineseName": "皺葉菠菜",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "flat_leaf",
                                             "displayName": "flat leaf",
+                                            "chineseName": "平葉菠菜",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -289,17 +335,20 @@
                                 {
                                     "name": "kale",
                                     "displayName": "kale",
+                                    "chineseName": "羽衣甘藍",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "curly",
                                             "displayName": "curly",
+                                            "chineseName": "捲葉羽衣甘藍",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "dinosaur",
                                             "displayName": "dinosaur",
+                                            "chineseName": "恐龍羽衣甘藍",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -308,17 +357,20 @@
                                 {
                                     "name": "swiss_chard",
                                     "displayName": "swiss chard",
+                                    "chineseName": "瑞士甜菜",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "rainbow",
                                             "displayName": "rainbow",
+                                            "chineseName": "彩虹瑞士甜菜",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "ruby_red",
                                             "displayName": "ruby red",
+                                            "chineseName": "紅寶石瑞士甜菜",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -327,17 +379,20 @@
                                 {
                                     "name": "arugula",
                                     "displayName": "arugula",
+                                    "chineseName": "芝麻菜",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "wild",
                                             "displayName": "wild",
+                                            "chineseName": "野生芝麻菜",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "cultivated",
                                             "displayName": "cultivated",
+                                            "chineseName": "栽培芝麻菜",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -348,22 +403,26 @@
                         {
                             "name": "fruiting_vegetables",
                             "displayName": "fruiting vegetables",
+                            "chineseName": "果菜",
                             "hierarchy": "order",
                             "children": [
                                 {
                                     "name": "tomato",
                                     "displayName": "tomato",
+                                    "chineseName": "番茄",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "beefsteak",
                                             "displayName": "beefsteak",
+                                            "chineseName": "牛排番茄",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "cherry",
                                             "displayName": "cherry",
+                                            "chineseName": "櫻桃番茄",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -372,17 +431,20 @@
                                 {
                                     "name": "pepper",
                                     "displayName": "pepper",
+                                    "chineseName": "辣椒",
                                     "hierarchy": "family",
                                     "children": [
                                         {
                                             "name": "bell",
                                             "displayName": "bell",
+                                            "chineseName": "甜椒",
                                             "hierarchy": "species",
                                             "value": 1
                                         },
                                         {
                                             "name": "jalapeno",
                                             "displayName": "jalapeno",
+                                            "chineseName": "墨西哥辣椒",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
@@ -397,33 +459,39 @@
         {
             "name": "non_flowering_plants",
             "displayName": "non flowering plants",
+            "chineseName": "非開花植物",
             "hierarchy": "division",
             "children": [
                 {
                     "name": "ferns",
                     "displayName": "ferns",
+                    "chineseName": "蕨類",
                     "hierarchy": "class",
                     "children": [
                         {
                             "name": "true_ferns",
                             "displayName": "true ferns",
+                            "chineseName": "真蕨",
                             "hierarchy": "order",
                             "children": [
                                 {
                                     "name": "sword_fern",
                                     "displayName": "sword fern",
+                                    "chineseName": "劍蕨",
                                     "hierarchy": "species",
                                     "value": 1
                                 },
                                 {
                                     "name": "maidenhair",
                                     "displayName": "maidenhair",
+                                    "chineseName": "鐵線蕨",
                                     "hierarchy": "species",
                                     "value": 1
                                 },
                                 {
                                     "name": "tree_fern",
                                     "displayName": "tree fern",
+                                    "chineseName": "蕨樹",
                                     "hierarchy": "species",
                                     "value": 1
                                 }
@@ -432,17 +500,20 @@
                         {
                             "name": "horsetails",
                             "displayName": "horsetails",
+                            "chineseName": "木賊",
                             "hierarchy": "order",
                             "children": [
                                 {
                                     "name": "field_horsetail",
                                     "displayName": "field horsetail",
+                                    "chineseName": "問荊",
                                     "hierarchy": "species",
                                     "value": 1
                                 },
                                 {
                                     "name": "giant_horsetail",
                                     "displayName": "giant horsetail",
+                                    "chineseName": "大木賊",
                                     "hierarchy": "species",
                                     "value": 1
                                 }
@@ -453,22 +524,26 @@
                 {
                     "name": "mosses",
                     "displayName": "mosses",
+                    "chineseName": "苔蘚",
                     "hierarchy": "class",
                     "children": [
                         {
                             "name": "true_mosses",
                             "displayName": "true mosses",
+                            "chineseName": "真蘚",
                             "hierarchy": "order",
                             "children": [
                                 {
                                     "name": "cushion_moss",
                                     "displayName": "cushion moss",
+                                    "chineseName": "墊狀蘚",
                                     "hierarchy": "species",
                                     "value": 1
                                 },
                                 {
                                     "name": "peat_moss",
                                     "displayName": "peat moss",
+                                    "chineseName": "泥炭蘚",
                                     "hierarchy": "species",
                                     "value": 1
                                 }
@@ -477,17 +552,20 @@
                         {
                             "name": "liverworts",
                             "displayName": "liverworts",
+                            "chineseName": "苔類",
                             "hierarchy": "order",
                             "children": [
                                 {
                                     "name": "common_liverwort",
                                     "displayName": "common liverwort",
+                                    "chineseName": "地錢",
                                     "hierarchy": "species",
                                     "value": 1
                                 },
                                 {
                                     "name": "crescent_cup",
                                     "displayName": "crescent cup",
+                                    "chineseName": "月牙苔",
                                     "hierarchy": "species",
                                     "value": 1
                                 }
@@ -498,22 +576,26 @@
                 {
                     "name": "algae",
                     "displayName": "algae",
+                    "chineseName": "藻類",
                     "hierarchy": "class",
                     "children": [
                         {
                             "name": "green_algae",
                             "displayName": "green algae",
+                            "chineseName": "綠藻",
                             "hierarchy": "order",
                             "children": [
                                 {
                                     "name": "sea_lettuce",
                                     "displayName": "sea lettuce",
+                                    "chineseName": "海生菜",
                                     "hierarchy": "species",
                                     "value": 1
                                 },
                                 {
                                     "name": "spirogyra",
                                     "displayName": "spirogyra",
+                                    "chineseName": "水綿",
                                     "hierarchy": "species",
                                     "value": 1
                                 }
@@ -522,17 +604,20 @@
                         {
                             "name": "brown_algae",
                             "displayName": "brown algae",
+                            "chineseName": "褐藻",
                             "hierarchy": "order",
                             "children": [
                                 {
                                     "name": "kelp",
                                     "displayName": "kelp",
+                                    "chineseName": "海帶",
                                     "hierarchy": "species",
                                     "value": 1
                                 },
                                 {
                                     "name": "rockweed",
                                     "displayName": "rockweed",
+                                    "chineseName": "石花菜",
                                     "hierarchy": "species",
                                     "value": 1
                                 }
