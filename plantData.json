@@ -105,7 +105,7 @@
                                 },
                                 {
                                     "name": "spruce",
-                                    "displayName": "spruce",
+                                    "displayNamez": "spruce",
                                     "chineseName": "雲杉",
                                     "hierarchy": "family",
                                     "value": 1
@@ -275,6 +275,160 @@
                                             "name": "red",
                                             "displayName": "red",
                                             "chineseName": "紅皮馬鈴薯",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "radish",
+                                    "displayName": "radish",
+                                    "chineseName": "蘿蔔",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "daikon",
+                                            "displayName": "daikon",
+                                            "chineseName": "白蘿蔔",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "red_radish",
+                                            "displayName": "red radish",
+                                            "chineseName": "紅蘿蔔",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "turnip",
+                                    "displayName": "turnip",
+                                    "chineseName": "蕪菁",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "purple_top",
+                                            "displayName": "purple top",
+                                            "chineseName": "紫頭蕪菁",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "white_turnip",
+                                            "displayName": "white turnip",
+                                            "chineseName": "白蕪菁",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "sweet_potato",
+                                    "displayName": "sweet potato",
+                                    "chineseName": "地瓜",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "jewel",
+                                            "displayName": "jewel",
+                                            "chineseName": "寶石地瓜",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "purple",
+                                            "displayName": "purple",
+                                            "chineseName": "紫地瓜",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "beet",
+                                    "displayName": "beet",
+                                    "chineseName": "甜菜根",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "detroit_dark_red",
+                                            "displayName": "detroit dark red",
+                                            "chineseName": "底特律深紅甜菜根",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "golden",
+                                            "displayName": "golden",
+                                            "chineseName": "黃金甜菜根",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "parsnip",
+                                    "displayName": "parsnip",
+                                    "chineseName": "防風草",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "hollow_crown",
+                                            "displayName": "hollow crown",
+                                            "chineseName": "空心冠防風草",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "harris_model",
+                                            "displayName": "harris model",
+                                            "chineseName": "哈里斯防風草",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "rutabaga",
+                                    "displayName": "rutabaga",
+                                    "chineseName": "蕪菁甘藍",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "american_purple_top",
+                                            "displayName": "american purple top",
+                                            "chineseName": "美國紫頭蕪菁甘藍",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "laurentian",
+                                            "displayName": "laurentian",
+                                            "chineseName": "勞倫蕪菁甘藍",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "cassava",
+                                    "displayName": "cassava",
+                                    "chineseName": "木薯",
+                                    "hierarchy": "family",
+                                    "children": [
+                                        {
+                                            "name": "sweet",
+                                            "displayName": "sweet",
+                                            "chineseName": "甜木薯",
+                                            "hierarchy": "species",
+                                            "value": 1
+                                        },
+                                        {
+                                            "name": "bitter",
+                                            "displayName": "bitter",
+                                            "chineseName": "苦木薯",
                                             "hierarchy": "species",
                                             "value": 1
                                         }
