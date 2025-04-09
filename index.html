@@ -34,6 +34,7 @@
     const y = d3.scaleLinear().rangeRound([0, height]);
 
     function tile(node, x0, y0, x1, y1) {
+        // console.log("x0", x0, "x1", x1)
         d3.treemapBinary(node, 0, 0, width, height);
         for (const child of node.children) {
             child.x0 = x0 + child.x0 / width * (x1 - x0);
@@ -66,8 +67,8 @@
     // Display the root.
     let group = svg.append("g")
         .call(render, root);
-
     function render(group, root) {
+        // console.log(root);
         // Create color scale for green intensity based on values
         const colorScale = d3.scaleLinear()
             .domain([0, d3.max(root.descendants(), d => d.value)])
@@ -101,6 +102,7 @@
             .append("use")
             .attr("xlink:href", d => d.leafUid.href);
 
+        // Add main text label
         node.append("text")
             .attr("clip-path", d => d.clipUid)
             .attr("font-weight", d => d === root ? "bold" : null)
@@ -112,6 +114,18 @@
             .attr("fill-opacity", (d, i, nodes) => i === nodes.length - 1 ? 0.7 : null)
             .attr("font-weight", (d, i, nodes) => i === nodes.length - 1 ? "normal" : null)
             .text(d => d);
+
+        // Add location text on right side
+        node.append("text")
+            .attr("clip-path", d => d.clipUid)
+            .filter(d => d.data.location && d !== root)
+            .attr("text-anchor", "end")
+            .attr("x", d => (d.x1 - d.x0) / (d.parent.x1 - d.parent.x0) * width - 5)
+            .attr("y", 10)
+            .attr("fill-opacity", 0.4)
+            .text(d => d.data.location)
+
+        // debug mode: .text(d => "[d.x0]" + d.x0 + " / [d.x1]" + d.x1 + " [p.x1]" + d.parent.x1 + "; width:" + width);
 
         group.call(position, root);
     }
